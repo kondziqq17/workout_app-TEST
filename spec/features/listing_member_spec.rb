@@ -4,7 +4,7 @@ RSpec.feature "Listing Members" do
 	before do
 		@john = User.create(first_name: "John", last_name: "Doe", email: "johndoe@example.com",
 			password: "password")
-		@sarah = User.create(first_name: "Sarah", last_name: "Joseph", email: "sara@example.com",
+		@sarah = User.create(first_name: "Sarah", last_name: "Joseph", email: "sarah@example.com",
 			password: "password")
 	end
 
